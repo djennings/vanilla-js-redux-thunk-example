@@ -8,7 +8,6 @@ import {
   getCurrentCount
 } from '../redux/counter';
 
-
 import { showLoading } from '../redux/ui';
 
 export default class Counter {
@@ -41,7 +40,6 @@ export default class Counter {
     this.store.dispatch(showLoading())
     this.store.dispatch(delay(1));
   }
-
 
   update() {
     const loading = document.querySelector('.loadingMask');
