@@ -1,10 +1,10 @@
 import {
-  // action creators
+  // action creators from  duck
   decrement,
   delay,
   increment,
 
-  //selectors
+  //selectors from duck
   getCurrentCount
 } from '../redux/counter';
 
